@@ -34,9 +34,9 @@ public class MainJava {
         } else {
         }
 
-        if(true){
+        if (true) {
             //
-        } else if(false){
+        } else if (false) {
             //
         }
 

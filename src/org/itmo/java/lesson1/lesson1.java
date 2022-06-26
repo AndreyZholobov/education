@@ -22,6 +22,7 @@ public class lesson1 {
         double result = ((double) number / 10) / 10;
         System.out.println("result = " + result);
 
+
         // Задание 4
         //Даны три числа: 3.6, 4.1, 5.9. В переменной result посчитайте произведение этих чисел.
         double numb1 = 3.6;
@@ -66,5 +67,6 @@ public class lesson1 {
             System.out.println("Число нечетное");
         }
 
+        //public void someMethod()
     }
 }
