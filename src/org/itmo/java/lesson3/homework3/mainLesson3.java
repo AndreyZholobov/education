@@ -24,5 +24,11 @@ public class mainLesson3 {
         System.out.println(house2.printHouse() + ". Years from build " + house2.yearFromBuild());
         System.out.println();
 
+        Tree tree1 = new Tree();
+        Tree tree2 = new Tree(48, "Дерево1");
+        Tree tree3 = new Tree(32, true, "Дерево2");
+        System.out.println(tree1);
+        System.out.println(tree2);
+        System.out.println(tree3);
     }
 }
