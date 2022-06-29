@@ -2,15 +2,15 @@ package org.itmo.java.lesson3.homework3;
 
 import org.itmo.java.lesson2.Color;
 
-public class mainLesson3 {
+public class MainLesson3 {
     public static void main(String[] args) {
         Study study = new Study("Изучение Java - это просто!");
         System.out.println(study.printCourse());
         System.out.println();
 
-        someClass car1 = new someClass();
-        someClass car2 = new someClass(Color.BLACK, 35);
-        someClass car3 = new someClass(56);
+        SomeClass car1 = new SomeClass();
+        SomeClass car2 = new SomeClass(Color.BLACK, 35);
+        SomeClass car3 = new SomeClass(56);
         System.out.println(car1.printInformation());
         System.out.println(car2.printInformation());
         System.out.println(car3.printInformation());
